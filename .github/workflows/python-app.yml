@@ -29,5 +29,7 @@ jobs:
     - name: Test Make
       run: |
         #pytest
+        echo "starting...."
+        sudo chmod 777 install.sh
         ./install.sh
         
