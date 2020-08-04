@@ -28,5 +28,6 @@ jobs:
     
     - name: Test Make
       run: |
-        pytest
+        #pytest
+        ./install.sh
         
